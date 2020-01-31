@@ -4,10 +4,14 @@
 
 
 ## 개발 목표 및 서론
+The objective of this study is to demonstrate the improved accuracy of the deep learning models in identifying high risk individuals by comparing the performance of a Cox hazard regression model.
+
 기존 의학 통계 분야에서 생존 분석은 일정 시점에 대한 이벤트 발생 예측을 말한다.
 일반적으로 사람이 죽는지 안죽는지에 간단한 예측과 달리
 생존 분석에서는 대표적으로 발병 시점과 발병 확률 두 결과에 대한 예측이 필요하고
 대표적으로 COX 모델이 있다.
+
+this study attempts to evaluate the discriminative accuracy of a deep learning based algorithm with repeated health data for prediction by comparing the result of conventional Cox hazard regression analysis. The forecasts for two models were calculated for a specific time period through multi-class classification.
 
 본 연구에서는 전통적인 통계 기반 모델보다 우수한 성능의 딥러닝 기반 모델을 연구하였다.
 
