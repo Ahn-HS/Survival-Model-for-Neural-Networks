@@ -1,6 +1,6 @@
 # Deep Learning-based survival analysis for prediction of the probability of disease with NHIS cohort
 
-국민건강보험 건강검진 코호트 데이터를 이용한 질병 예측 딥러닝 모델 개발
+국민건강보험 건강검진 코호트 데이터를 이용한 질병 예측 딥러닝 기반 모델 개발
 
 
 ## 개발 목표 및 서론
