@@ -8,18 +8,18 @@ The objective of this study is to demonstrate the improved accuracy of the deep 
 
 기존 의학 통계 분야에서 생존 분석은 일정 시점에 대한 이벤트 발생 예측을 말한다.
 일반적으로 사람이 죽는지 안죽는지에 간단한 예측과 달리
-생존 분석에서는 대표적으로 발병 시점과 발병 확률 두 결과에 대한 예측이 필요하고
+생존 분석에서는 발병 시점과 발병 확률 두 결과에 대한 예측이 필요하고
 대표적으로 COX 모델이 있다.
 
 this study attempts to evaluate the discriminative accuracy of a deep learning based algorithm with repeated health data for prediction by comparing the result of conventional Cox hazard regression analysis. The forecasts for two models were calculated for a specific time period through multi-class classification.
 
-본 연구에서는 전통적인 통계 기반 모델보다 우수한 성능의 딥러닝 기반 모델을 연구하였다.
+의료 분야에서 시계열 데이터 분석의 특성상 현재 생존하고 있는 환자의 관측되지 않은 데이터(censored)와
+특정 시점에서 관측된 데이터(non-censored)를 별도로 고려하여야 하기 때문에 
+이들의 가중치를 적절하게 반영할 수 있는 비용함수를 제안하고, multi-class를 통해 예측 모델을 설계하였다.
 
-의료 분야에서 이러한 분석의 특성상 현재 생존하고 있는 환자의 관측되지 않은 데이터(censored)와
-특정 시점에서 관측된 데이터(non-censored)를 별도로 고려하여야 하기 때문에 일반적인 딥러닝 모델을
-적용하는데 어려움이 있다.
+본 연구에서는 전통적인 통계 기반 cox 모델보다 우수한 성능의 딥러닝 기반 모델을 정확도 기반으로 비교하고 검증하였다.
 
-따라서 이들의 가중치를 적절하게 반영할 수 있는 비용함수를 제안하고, 성능을 평가하였다.
+
 
 
 ## 학습 모델 설정
